@@ -10752,6 +10752,41 @@
             <German>Sie sind nicht Polizist werden auf Grund früherer Aktionen und die Admins haben sich von einem Cop entfernt es erlaubt.</German>
         </Key>
     </Package>
+    <Package name="SpyGlass">
+        <Key ID="STR_SpyDetect_Title">
+            <Original>The SpyGlass sees you!</Original>
+            <Czech>Dalekohled tě vidí!</Czech>
+            <French>SpyGlass vous voit!</French>
+            <Spanish>El SpyGlass te ve!</Spanish>
+            <Italian>Il cannocchiale si vede!</Italian>
+            <Polish>Lunetę widzi!</Polish>
+            <Portuguese>O SpyGlass te vê!</Portuguese>
+            <Russian>SpyGlass видит, что вы!</Russian>
+            <German>Die SpyGlass sieht dich!</German>
+        </Key>
+        <Key ID="STR_SpyDetect_SubTitle">
+            <Original>You were detected by the SpyGlass.</Original>
+            <Czech>Vy byly detekovány dalekohled.</Czech>
+            <French>Vous avez été détecté par SpyGlass.</French>
+            <Spanish>Le fue detectada por el catalejo.</Spanish>
+            <Italian>Lei è stato rilevato dal SpyGlass.</Italian>
+            <Polish>Ty zostały wykryte przez lunetę.</Polish>
+            <Portuguese>Você foi detectado pelo SpyGlass.</Portuguese>
+            <Russian>Вы были обнаружены с помощью SpyGlass.</Russian>
+            <German>Sie wurden von der SpyGlass erkannt.</German>
+        </Key>
+        <Key ID="STR_SpyDetect_Descript">
+            <Original>You were detected for cheating and have been reported to the server. Enjoy your day.</Original>
+            <Czech>Vy byly detekovány za podvádění a byly zaznamenány na server. Užijte si svůj den.</Czech>
+            <French>Vous avez été détecté pour tricher et ont été signalés au serveur. Profitez de votre journée.</French>
+            <Spanish>Le fue detectada por hacer trampas y se ha informado al servidor. Disfruta tu día.</Spanish>
+            <Italian>Lei è stato rilevato per truffa e sono stati segnalati per il server. Buona giornata.</Italian>
+            <Polish>Ty wykryto oszustwo i zostały zgłoszone do serwera. Miłego dnia.</Polish>
+            <Portuguese>Está foram detectados por engano e têm sido relatados para o servidor. Aproveite seu dia.</Portuguese>
+            <Russian>Вы были обнаружены для мошенничества и было сообщено на сервер. Удачного дня.</Russian>
+            <German>Sie wurden für Betrug erkannt und haben an den Server gemeldet. Genieße deinen Tag.</German>
+        </Key>
+    </Package>
     <Package name="TextNotifications">
         <Key ID="STR_MedicalRequestEmerg_Title">
             <Original>EMS Requested</Original>
