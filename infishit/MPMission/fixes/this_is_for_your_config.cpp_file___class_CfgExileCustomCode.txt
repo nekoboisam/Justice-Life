@@ -1,0 +1,14 @@
+class CfgExileCustomCode 
+{
+	// Fix Ghost bug:
+	ExileClient_object_player_initialize = "fixes\ExileClient_object_player_initialize.sqf";
+	
+	//	Revert this to old "default" (much better/faster)
+	ExileServer_system_network_event_onPlayerConnected = "fixes\ExileServer_system_network_event_onPlayerConnected.sqf";
+	
+	//	Now deconstruct works as intended and you get the item in a weaponholder if you deconstruct a construction.
+	ExileServer_object_construction_network_deconstructConstructionRequest = "fixes\ExileServer_object_construction_network_deconstructConstructionRequest.sqf";
+	
+	//	Incase you add Tanks/Jets and whatever, this will Remove Weapons (and their magazines) from the vehicle on Purchase.
+	ExileServer_object_vehicle_createPersistentVehicle = "fixes\ExileServer_object_vehicle_createPersistentVehicle.sqf";
+};
