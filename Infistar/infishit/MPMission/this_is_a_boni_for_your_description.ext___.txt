@@ -1,0 +1,24 @@
+/*
+You have to add this block in your description.ext of your arma3 exile server to block remoteExec!
+or hackers can use all these
+
+https://community.bistudio.com/wiki/CfgRemoteExecCommands
+*/
+
+/*
+[16:42:29 | Edited 16:42:34] David Foltyn - Dwarden: White-lists defined in 
+CfgRemoteExecCommands 
+CfgRemoteExecFunctions 
+are no longer supported !
+*/
+//class CfgRemoteExecFunctions {mode=0;}; 
+//class CfgRemoteExecCommands {mode=0;};
+class CfgRemoteExec
+{
+	class Functions
+	{
+		mode = 0;
+		jip = 0;
+	};
+	class Commands{mode=0;};
+};
