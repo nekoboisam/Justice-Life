@@ -1,6 +1,5 @@
 disableChannels[]={0,1,2};
 
-#include "Config_Spyglass.hpp"
 #include "CfgRemoteExec.hpp"
 #include "dialog\MasterHandler.hpp"
 #include "Config_Master.hpp"
@@ -95,14 +94,6 @@ class CfgDebriefing {
         pictureColor[] = {0,0.3,0.6,1};
     };
 
-    class SpyGlass {
-        title = $STR_SpyDetect_Title;
-        subTitle = $STR_SpyDetect_SubTitle;
-        description = $STR_SpyDetect_Descript;
-        pictureBackground = "";
-        picture = "";
-        pictureColor[] = {0,0.3,0.6,1};
-    };
 };
 
 class CfgNotifications {
