@@ -15,3 +15,7 @@ StartProgress = true;
  _markername="DelGeorgetownCop";
 _terrainobjects=nearestTerrainObjects [(getMarkerPos _markername),[],(getmarkersize _markername)select 0];
 {hideObjectGlobal _x} foreach _terrainobjects;
+
+ _markername="RemoveAirHQ1";
+_terrainobjects=nearestTerrainObjects [(getMarkerPos _markername),[],(getmarkersize _markername)select 0];
+{hideObjectGlobal _x} foreach _terrainobjects;
